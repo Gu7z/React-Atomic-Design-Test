@@ -1,13 +1,11 @@
 import React from "react";
 
-import { Box } from "./components/molecules";
-
-import styled from 'styled-components';
+import { Cards } from './components/organisms'
 
 function App() {
   return (
     <div className="App">
-      <Box></Box>
+      <Cards></Cards>
     </div>
   );
 }

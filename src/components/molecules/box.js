@@ -1,7 +1,7 @@
 import React from "react";
 import { Title, SubTitle } from "../atoms";
 
-import { BoxDiv, TitleDiv, ContentDiv, Butao } from '../../styles'
+import { BoxDiv, TitleDiv, ContentDiv, StyledButton } from '../../styles'
 
 export default function Box() {
   return (
@@ -15,7 +15,7 @@ export default function Box() {
         <SubTitle SubTitle="Teste">Melhor custo beneficio</SubTitle>
         <SubTitle SubTitle="Teste">Suporte 24hrs</SubTitle>
       </ContentDiv>
-      <Butao> Enviar </Butao>
+      <StyledButton> Enviar </StyledButton>
     </BoxDiv>
   );
 }
