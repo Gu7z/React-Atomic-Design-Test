@@ -1,15 +1,18 @@
 import React from "react";
+import { CssBaseline } from "@material-ui/core";
 
 import { CardScreen } from "./components/templates";
 import { Cards } from "./components/organisms";
+import { AppDiv } from "./styles";
 
 function App() {
   return (
-    <div className="App">
+    <AppDiv className="App">
+      <CssBaseline />
       <CardScreen>
         <Cards />
       </CardScreen>
-    </div>
+    </AppDiv>
   );
 }
 

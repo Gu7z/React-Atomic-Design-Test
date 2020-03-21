@@ -1,6 +1,12 @@
 import styled from "styled-components";
 import Button from "@material-ui/core/Button";
 
+const AppDiv = styled.div`
+  background: #f29c79;
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+`;
+
 const BoxDiv = styled.div`
   width: 200px;
   height: 300px;
@@ -13,7 +19,8 @@ const TitleDiv = styled.div`
   width: 100%;
   height: 60px;
   border-radius: 20px 20px 0 0;
-  background: pink;
+  background: #f26d6d;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,6 +30,7 @@ const ContentDiv = styled.div`
   width: 100%;
   height: 200px;
   display: flex;
+  background: #ffcccc;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
@@ -31,10 +39,12 @@ const ContentDiv = styled.div`
 const StyledButton = styled(Button)`
   && {
     width: 100%;
+    height: 45px;
     padding: 7px 14px;
-    background-color: #6772e5;
+    background-color: #f26d6d;
+    color: white;
     &:hover {
-      background-color: #5469d4;
+      background-color: #d93636;
     }
   }
 `;
@@ -52,4 +62,12 @@ const TemplateDiv = styled.div`
   justify-content: center;
 `;
 
-export { BoxDiv, TitleDiv, ContentDiv, StyledButton, CardDiv, TemplateDiv };
+export {
+  AppDiv,
+  BoxDiv,
+  TitleDiv,
+  ContentDiv,
+  StyledButton,
+  CardDiv,
+  TemplateDiv
+};
