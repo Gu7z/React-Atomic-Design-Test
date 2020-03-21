@@ -1,12 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import { TemplateDiv } from '../../styles'
+import { TemplateDiv } from "../../styles";
 
 export default function CardScreen({ children }) {
-  return (
-    <TemplateDiv>
-        <div>asdasdasd</div>
-        {children}
-    </TemplateDiv>
-  );
+  return <TemplateDiv>{children}</TemplateDiv>;
 }

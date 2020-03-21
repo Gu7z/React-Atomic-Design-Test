@@ -1,11 +1,14 @@
 import React from "react";
 
-import { Cards } from './components/organisms'
+import { CardScreen } from "./components/templates";
+import { Cards } from "./components/organisms";
 
 function App() {
   return (
     <div className="App">
-      <Cards></Cards>
+      <CardScreen>
+        <Cards />
+      </CardScreen>
     </div>
   );
 }
