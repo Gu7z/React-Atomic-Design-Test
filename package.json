@@ -12,7 +12,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.0",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "acorn": "^7.1.1",
+    "minimist": "^1.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
